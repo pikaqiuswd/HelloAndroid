@@ -42,6 +42,14 @@ public class MainActivity extends AppCompatActivity {
                 normalDialog.show();
             }
         });
+        Button openCounterButton = findViewById(R.id.openCounterButton);
 
+        openCounterButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, CounterActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

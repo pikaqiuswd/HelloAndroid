@@ -20,5 +20,11 @@
         android:layout_marginTop="50dp"
         android:text="Seconde Activity"
         android:textAllCaps="false" />
-
+    <Button
+        android:id="@+id/openCounterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Open Counter Activity" />
 </LinearLayout>
